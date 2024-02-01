@@ -1,9 +1,5 @@
 from display import *
 from wm import *
-import os
-
-
-os.chdir("..")
 
 display.create()
 
@@ -18,7 +14,7 @@ window.surface.blit(window.title_font.render("Press [ESC] for exit",
 
 panel = Panel()
 
-bg = transform.smoothscale(image.load("images/default.png"), display.get_size())
+bg = transform.smoothscale(image.load("../images/default.png"), display.get_size())
 
 run = 1
 
