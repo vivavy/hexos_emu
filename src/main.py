@@ -1,6 +1,9 @@
 from display import *
 from wm import *
+import os, sys
 
+
+sys.path.append(sys.argv[-1])
 
 display.create()
 
