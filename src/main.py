@@ -1,3 +1,4 @@
+import sys
 from display import *
 from wm import *
 
@@ -14,7 +15,7 @@ window.surface.blit(window.title_font.render("Press [ESC] for exit",
 
 panel = Panel()
 
-bg = transform.smoothscale(image.load("../images/default.png"), display.get_size())
+bg = transform.smoothscale(image.load(sys.argv[-1] + "/images/default.png"), display.get_size())
 
 run = 1
 
