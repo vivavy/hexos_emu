@@ -1,9 +1,9 @@
 from display import *
 from wm import *
-import os, sys
+import os
 
 
-sys.path.append(sys.argv[-1])
+os.chdir("..")
 
 display.create()
 
