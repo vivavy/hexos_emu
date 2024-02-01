@@ -1,0 +1,10 @@
+{
+    "name": "HexOS Emulator",
+    "desc": "Emulator for HexOS Operating System",
+    "priority": 5,
+    "status": "in progress",
+    "terminal": false,
+    "depencies": [
+      "python3"
+    ]
+  }
